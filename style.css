@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(37, 179, 167);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin-top: 50px ;
+    font-size: 16px;
+}
+
+.values input{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    flex-direction: column;
+    padding: 4px;
+    width: 220px;
+}
+
+.values .button {
+    width: 70px;
+}
+
+.res {
+    display: flex;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+}
